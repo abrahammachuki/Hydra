@@ -89,5 +89,29 @@ I've included this feature to test all scenarios and ensure the game's full func
 <a name="demo"></a>
 ## Demo 
 
+Note that the demo was done in testing mode and therefore the user will decide the card suit and value, which would not occur in a normal game. <br/>
+
+When run the program asks the user for the number of players, number of cards per deck and if they would like the house rules on, which we've decided not to have.
+
+![](Images/Hydra_Demo1.png) <br/><br/>
+
+
+We have set the first card to be a joker, which is given a default value of 2 and then given ourselves an AS which can be placed normally since aces can be played on anything.
+Following this the player's turn is ended because there is one head and so the player only gets to draw and play one card.
+
+![](Images/Hydra_Demo2.png) <br/><br/>
+
+In the next image, we have first given ourselves a QS which is again less than the top card on the head and therefore can be played. 
+The next card we gave outselves is a KC, which is greater than a Q. Since it is not possible to play it splits the head and ends the turn, setting the top card of the next two heads as 5D and 3S. 
+
+![](Images/Hydra_Demo3.png) <br/><br/>
+
+This image demonstrates switching capabilities. First we draw a 3S, which we put in reserve and draw the next card which is a 9S. Now we have a card in reserve and one in hand so we can switch back and forth without it counting as a new card drawn. 
+
+![](Images/Hydra_Demo4.png) <br/><br/>
+
+In the final image player one plays his final card, such that his discard pile, draw pile and reserve are empty, making them the winner. 
+
+![](Images/Hydra_Demo5.png)
 
 
