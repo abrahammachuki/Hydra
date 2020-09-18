@@ -62,6 +62,13 @@ If the first card when creating a head happens to be a joker, then it is taken t
 It is not possible to win on a turn you have put a card in reserve because you can only swap after that so there will always be a card in reserve that can't be played in the turn.
 Finally, one house rule I added was that if the suit of your card matches the suit of the head's top card you can play it regardless of the value. 
 
+### Interface
+
+Before every action you will be given updated information about the heads including the top card and the number of cards in each pile. 
+Then you will be updated on player information including the number of cards left, number in draw pile, number in discard, if a card is in hand, number of cards still to be drawn and if a card is in reserve. 
+Each head will also include an identification number, so that you type that number to place your card there. You can type 0 and it will place your card in reserve if done for the first time and swap with reserve otherwise. 
+Finally, in testing you can provide: A, 2-10, J, Q, K, joker when prompted for the value and the following for suits: D, S, C, H.
+
 <a name="additional-features"></a>
 ## Additional Features
 
