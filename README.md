@@ -21,6 +21,7 @@ Due to how uncommon the game is, I've included how to play the game below and a 
 
 <a name="uml-diagram"></a>
 ## UML Diagram
+![](Images/Hydra_UML.png)
 
 <a name="how-to-play"></a>
 ## How to Play
